@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="buscador">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre">
+                <label for="propiedad">Propiedad</label>
+                <select name="propiedad" id="propiedades">
+                    <option value="todos">Todos</option>
+                    <option value="apellido">Apellido</option>
+                    <option value="numero">Numero</option>
+                    <option value="gustos">Gustos</option>
+                </select>
+                <button id="buscar">Buscar</button>
+            </div>
+            <div class="imagen">
+                <img src="img/img1.jpg" alt="">
+            </div>
+        </div>
+        <div class="salida">
+            <p id="salida"></p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

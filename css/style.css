@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 700px;
+  margin: 200px auto 0;
+  background-color: #f1f1f1;
+}
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #ccc;
+}
+.container .content .buscador {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+.container .content .buscador label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.container .content .buscador input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.container .content .buscador select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.container .content .buscador button {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.container .content .buscador button:hover {
+  background-color: #aaa;
+}
+.container .content .imagen {
+  width: 50%;
+}
+.container .content .imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .salida {
+  padding: 30px;
+}
+.container .salida p {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.container .salida p ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container .salida p ul li {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.container .salida p ul li span {
+  font-weight: 600;
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */
